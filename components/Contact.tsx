@@ -25,7 +25,7 @@ export default function Contact() {
               </div>
             </div>
             <p style={{ fontSize: 15, color: 'var(--text-secondary)', lineHeight: 1.9, marginBottom: 40, maxWidth: 440 }}>
-              협업 제안, 채용 문의, 혹은 이커머스 MD 관련 이야기라면 언제든지 편하게 연락주세요.
+              채용 문의, 동물 보호소 시설 관리 및 유기동물 케어 관련 이야기라면 언제든지 편하게 연락주세요.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
               <a href={`mailto:${profile.email}`} style={{
@@ -43,7 +43,7 @@ export default function Contact() {
                 { label: 'NAME', value: `${profile.name} (${profile.nameKo})` },
                 { label: 'BIRTH', value: profile.birth },
                 { label: 'CAREER', value: '5년' },
-                { label: 'EDUCATION', value: '목포과학대 식품영양학과' },
+                { label: 'EDUCATION', value: '목포과학대학교 식품영양학과' },
               ].map((item, i) => (
                 <div key={i} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingBottom: 14, borderBottom: i < 3 ? '1px solid var(--border)' : 'none', marginBottom: i < 3 ? 14 : 0 }}>
                   <span style={{ fontFamily: 'var(--font-mono)', fontSize: 10, letterSpacing: '0.12em', color: 'var(--text-muted)', textTransform: 'uppercase' }}>{item.label}</span>
