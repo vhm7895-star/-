@@ -1,6 +1,6 @@
-# Yeon Cheol Shin — Portfolio
+# Choi Seungmin — Portfolio
 
-온라인 MD 신연철의 포트폴리오 웹사이트입니다.  
+보호소 관리 매니저 최승민의 포트폴리오 웹사이트입니다.  
 Next.js 14 (App Router) + TypeScript + Tailwind CSS로 구축되었습니다.
 
 ## 🚀 로컬 실행
@@ -93,4 +93,4 @@ https://vercel.com/new
 
 ---
 
-Made with ♡ by Yeon Cheol Shin
+Made with ♡ by Choi Seungmin

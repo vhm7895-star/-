@@ -4,21 +4,21 @@ import { motion, useInView } from 'framer-motion'
 import { skills } from '@/data/portfolio'
 
 const categoryColors: Record<string, string> = {
-  '데이터 분석': 'var(--accent)',
-  '광고 & 프로모션': 'var(--green)',
-  '상품 기획': 'var(--blue)',
-  'SEO & 콘텐츠': 'var(--purple)',
-  '채널 운영': 'var(--accent)',
-  '툴': 'var(--text-secondary)',
+  '데이터 파악 및 문서화': 'var(--green)',
+  '시설 및 물자 관리': 'var(--accent)',
+  'CS 및 전화 응대': 'var(--blue)',
+  '사후 관리 및 소통': 'var(--purple)',
+  '현장 동물 보호': 'var(--accent)',
+  '사용 툴': 'var(--text-secondary)',
 }
 
 const colorHex: Record<string, string> = {
-  '데이터 분석': '#f0a500',
-  '광고 & 프로모션': '#00e5a0',
-  '상품 기획': '#4d9fff',
-  'SEO & 콘텐츠': '#a855f7',
-  '채널 운영': '#f0a500',
-  '툴': '#888888',
+  '데이터 파악 및 문서화': '#00e5a0',
+  '시설 및 물자 관리': '#f0a500',
+  'CS 및 전화 응대': '#4d9fff',
+  '사후 관리 및 소통': '#a855f7',
+  '현장 동물 보호': '#f0a500',
+  '사용 툴': '#888888',
 }
 
 const containerVariants = {
