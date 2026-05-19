@@ -1,4 +1,5 @@
 {
+  "name": "animal-portfolio",
   "buildCommand": "next build",
   "outputDirectory": ".next",
   "devCommand": "next dev",

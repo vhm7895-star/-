@@ -94,7 +94,7 @@ export default function Experience() {
             <div className="card reveal" style={{ padding: '24px' }}>
               <div className="label" style={{ marginBottom: 16 }}>TOOLS</div>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                {['사방넷', '포토샵', 'GPT', '지그재그 파트너센터', '에이블리 셀러허브', 'Excel'].map((tool, i) => (
+                {['Excel'].map((tool, i) => (
                   <span key={i} className="tag tag-muted">{tool}</span>
                 ))}
               </div>
