@@ -142,7 +142,7 @@ export default function KPI() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
               <ProgressBar label="유기동물 현장 케어 집중률" value={100} max={100} color="var(--accent)" />
               <ProgressBar label="입양 사후 관리 완료율 (사진 확인)" value={100} max={100} color="var(--green)" />
-              <ProgressBar label="위생/방역 및 시설 점검 이행률" value={100} max={100} color="var(--blue)" />
+              <ProgressBar label="시설 점검 이행률" value={100} max={100} color="var(--blue)" />
               <ProgressBar label="보호자 및 방문객 안내 민원 만족도" value={100} max={100} color="var(--purple)" />
             </div>
           </div>
