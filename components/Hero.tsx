@@ -104,7 +104,7 @@ export default function Hero() {
               }}>
                 <Counter target={stat.value} suffix={stat.suffix} duration={1600 + i * 200} />
               </div>
-              <div style={{ fontFamily: 'var(--font-mono)', fontSize: 10, letterSpacing: '0.08em', color: 'var(--text-secondary)', textTransform: 'uppercase', marginTop: 8 }}>{stat.label}</div>
+              <div style={{ fontFamily: 'var(--font-ko)', fontSize: 11, letterSpacing: '0.02em', color: 'var(--text-secondary)', marginTop: 8, wordBreak: 'keep-all' }}>{stat.label}</div>
             </div>
           ))}
         </div>
