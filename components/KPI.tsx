@@ -114,8 +114,8 @@ export default function KPI() {
 
         <div className="reveal grid grid-cols-1 md:grid-cols-3" style={{ gap: 12, marginBottom: 16 }}>
           {[
-            { value: 180, suffix: '억+', label: '지그재그 연간 최고 매출', sub: '22년 50억 → 23년 180억 → ... → 26년 상반기 48억 (연 102억 예상)', color: 'accent' },
-            { value: 200, suffix: '%+', label: '에이블리 성장률', sub: '22년 50억 → 23년 150억 → ... → 26년 상반기 42억 (연 89억 예상)', color: 'green' },
+            { value: 180, suffix: '억+', label: '지그재그 연간 최고 매출', sub: '22년 50억 → 23년 180억 → ... → 26년 상반기 48억 (연 132억 예상)', color: 'accent' },
+            { value: 200, suffix: '%+', label: '에이블리 성장률', sub: '22년 50억 → 23년 150억 → ... → 26년 상반기 42억 (연 127억 예상)', color: 'green' },
             { value: 400, suffix: '%', label: '퀸잇 신규 입점 매출 상승', sub: '입점 2개월 만에 달성', color: 'blue' },
           ].map((s, i) => (
             <div key={i} className="card" style={{ padding: '32px 24px', position: 'relative', overflow: 'hidden' }}>
@@ -138,10 +138,10 @@ export default function KPI() {
 
         <div className="reveal grid grid-cols-1 md:grid-cols-2" style={{ gap: 16, marginBottom: 16 }}>
           <div className="card" style={{ padding: '32px' }}>
-            <BarChart label="지그재그 연간 매출 추이 (억원)" data={[{ year: "'22", value: 50, color: 'var(--accent)' }, { year: "'23", value: 180, color: 'var(--accent)' }, { year: "'24", value: 140, color: 'var(--accent)' }, { year: "'25", value: 120, color: 'var(--accent)' }, { year: "'26", value: 102, current: 48, color: 'var(--accent)' }]} />
+            <BarChart label="지그재그 연간 매출 추이 (억원)" data={[{ year: "'22", value: 50, color: 'var(--accent)' }, { year: "'23", value: 180, color: 'var(--accent)' }, { year: "'24", value: 140, color: 'var(--accent)' }, { year: "'25", value: 120, color: 'var(--accent)' }, { year: "'26", value: 132, current: 48, color: 'var(--accent)' }]} />
           </div>
           <div className="card" style={{ padding: '32px' }}>
-            <BarChart label="에이블리 연간 매출 추이 (억원)" data={[{ year: "'22", value: 50, color: 'var(--green)' }, { year: "'23", value: 150, color: 'var(--green)' }, { year: "'24", value: 140, color: 'var(--green)' }, { year: "'25", value: 115, color: 'var(--green)' }, { year: "'26", value: 89, current: 42, color: 'var(--green)' }]} />
+            <BarChart label="에이블리 연간 매출 추이 (억원)" data={[{ year: "'22", value: 50, color: 'var(--green)' }, { year: "'23", value: 150, color: 'var(--green)' }, { year: "'24", value: 140, color: 'var(--green)' }, { year: "'25", value: 115, color: 'var(--green)' }, { year: "'26", value: 127, current: 42, color: 'var(--green)' }]} />
           </div>
         </div>
 
