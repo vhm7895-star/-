@@ -47,10 +47,7 @@ function BarChart({ data, label }: { data: { year: string; value: number; color:
           <div key={i} style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8, height: '100%', justifyContent: 'flex-end' }}>
             <div style={{ fontFamily: 'var(--font-mono)', fontSize: 11, color: d.color, fontWeight: 600, textAlign: 'center', lineHeight: 1.2 }}>
               {d.current ? (
-                <>
-                  <span style={{ fontSize: 9, opacity: 0.8 }}>현재 {d.current}억</span><br/>
-                  <span style={{ fontSize: 10 }}>예상 {d.value}억</span>
-                </>
+                <span style={{ fontSize: 10 }}>예상 {d.value}억</span>
               ) : (
                 `${d.value}억`
               )}
